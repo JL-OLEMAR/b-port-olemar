@@ -1,0 +1,38 @@
+{
+  "name": "strapi-portafolio",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "develop:admin": "strapi develop --watch-admin",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-react": "2.1.0",
+    "strapi": "3.6.2",
+    "strapi-admin": "3.6.2",
+    "strapi-connector-mongoose": "3.6.2",
+    "strapi-plugin-content-manager": "3.6.2",
+    "strapi-plugin-content-type-builder": "3.6.2",
+    "strapi-plugin-email": "3.6.2",
+    "strapi-plugin-graphql": "3.6.2",
+    "strapi-plugin-i18n": "3.6.2",
+    "strapi-plugin-upload": "3.6.2",
+    "strapi-plugin-users-permissions": "3.6.2",
+    "strapi-utils": "3.6.2"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "a3a55256-c74e-40fb-96c3-0120e5a5cf6f"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}
